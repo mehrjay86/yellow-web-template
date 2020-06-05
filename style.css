@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#showcase{
+    padding-top: 100px;
+    background-color: rgb(236, 205, 26);
+    height: 100vh;
+    width: 100%;
+}
+.show{
+    width: 45%;
+}
+.showimg{
+    width: 40%;
+}
+.show h1{
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+/*----*/
+#content{
+    margin-top: 150px;
+}
+ #content .limage p{
+     color: rgba(85, 83, 83, 0.986);
+     padding-top: 10px;
+ }
+ .rimage .far{
+     padding: 25px 0;
+ }
+ #content .he{
+     font-size: 18px;
+     font-weight: 500;
+ }
+ #content .rimage p{
+     font-size: 18px;
+ }
+ #content .head{
+     padding: 30px 0 0 0;
+     font-size: 18px;
+     font-weight: 500;
+ }
+ #highlight{
+   
+    padding: 10px;
+   
+ }
+ .light{
+    background: linear-gradient(to bottom, #ffff99 0%, #66ffff 100%);
+    height: 300px;
+    padding: 80px;
+ }
+ .light p{
+     padding: 10px;
+ }
+ .but{
+     padding: 40px;
+ }
+ .but .btn{
+     border-radius: 24px;
+     color:rgb(37, 37, 37);
+     font-size: 16px;
+ }
+ /*----*/
+ #grantee{
+     margin-top: 80px;
+}
+#grantee h1{
+    padding: 10px;
+}
+#grantee p{
+    font-weight: 100;
+}
+#grantee .btt .btn{
+    font-size: 16px;
+    border-radius: 24px;
+    margin: 0 10px;
+}
+#grantee .btt .btn:hover{
+    background-color: rgb(236, 205, 26);
+}
+.arow p, .plus p{
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: 200;
+}
+.arow h4, .plus h4{
+    padding-top: 25px;
+}
+/*----*/
+#fq{
+    margin-top: 50px;
+}
+.faq{
+    height: 500px;
+}
+.faq h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.drop button{
+    padding: 15px;
+    margin: 15px 35px;
+    border: 1px solid  rgb(198, 212, 218);
+    width: 600px;
+    height: 80px;
+    background-color: rgba(206, 221, 228, 0.945);
+    cursor: pointer;
+}
+#popup{
+    display: none;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+.drop1 button, .drop2 button{
+    padding: 15px;
+    margin: 15px 35px;
+    border: 2px solid  rgb(198, 212, 218);
+    width: 600px;
+    height: 80px;
+    background-color: rgba(206, 221, 228, 0.945);
+    cursor: pointer;
+}
+#popup1, #popup2{
+    display: none;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+/*-----*/
+#end{
+    margin-top: 50px;
+}
+.grade{
+    background: linear-gradient(to bottom, #66ffff 0%, #ffffcc 100%);
+    height: 400px;
+}
+.grade h1{
+    padding: 50px 0 40px 0;
+}
+#end .btn{
+    font-size: 16px;
+    border-radius: 24px;
+    margin: 40px 10px;
+}
+#end .btn:hover{
+    background-color: rgb(241, 224, 124);
+}
+/*---*/
+.list, .center, .right{
+    padding: 50px 0 30px 0;
+}
+.list h4, .center h4, .right h4, .icon h4{
+    padding: 20px 0;
+}
+.list a {
+    margin: 0;
+    padding: 0;
+}
+.list li{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.center{
+    width: 30%;
+}
+.right .btn{
+    font-size: 16px;
+    border-radius: 24px;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.right input[type=text]{
+    border-radius: 24px;
+    background-color: #fff;
+    width: 180px;
+    display: inline-block;
+}
+.icon .fab{
+    color: rgb(43, 41, 41);
+    font-size: larger;
+    padding: 5px 5px;
+    align-self: center;
+}
+.foot{
+    padding: 30px;
+    height: 90px;
+}
